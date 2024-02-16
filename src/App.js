@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import resume from "./docs/Resume_2024-v0.0.2.pdf";
 
 function App() {
   return (
@@ -9,13 +10,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <a className="App-link" href={resume} target="_blank" rel="noreferrer">
+          View Resume
         </a>
       </header>
     </div>
