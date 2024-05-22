@@ -30,13 +30,21 @@ body {
   .text-balance {
     text-wrap: normal;
   }
-  h1{
+  h1 {
     font-size: xxx-large;
   }
-  span{
+  span {
     font-size: x-large;
   }
-  /* top navbar*/
+  .email:hover {
+    background-color: blue;
+    text-decoration: underline;
+  }
+  .email:visited {
+    color: purple;
+    text-decoration: underline;
+  }
+  /* header */
   .top-nav {
     display: flex;
     flex-direction: row;
@@ -48,5 +56,16 @@ body {
   }
   .nav-link{
     padding: 0.5% 5% 0 0.5%;
+  }
+  /* footer */
+  .footer {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 }
