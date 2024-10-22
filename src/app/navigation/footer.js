@@ -14,9 +14,9 @@ export default function Footer() {
             <div className="footer-content">
                 <div>
                     <Link className="nav-link" href="/">Home</Link>
-                    <Link className="nav-link" href="#">About</Link>
-                    <Link className="nav-link" href="#">Contact</Link>
-                    <Link className="nav-link" href="#">Work</Link>
+                    <Link className="nav-link" href="/resume">Resume</Link>
+                    <Link className="nav-link" href="/projects">Projects</Link>
+                    <Link className="nav-link" href="/contact">Contact</Link>
                 </div>
                 <a className="email" href="#">burns.ashley331@gmail.com</a>
                 <div>

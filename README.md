@@ -19,4 +19,4 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ### Technologies used:
     - NextJS
     - React
-    - Tailwindcss
+    - Tailwind.css
